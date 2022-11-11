@@ -20,8 +20,8 @@ export const Gallery: React.FC<GalleryProps> = ({ entries }) => {
           key={e.slug}
           src={
             e.thumb
-              ? `/gallery/${e.thumb}`
-              : `/gallery/thumb_${jpgExtension(e.image)}`
+              ? `/dist/gallery/${e.thumb}`
+              : `/dist/gallery/thumb_${jpgExtension(e.image)}`
           }
           alt={e.image}
         />
