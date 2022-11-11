@@ -1,8 +1,8 @@
-import { GalleryEntry } from "./Gallery/interfaces";
+import { GalleryEntry } from "../Common/Gallery/interfaces";
 
 export const galleryEntries: GalleryEntry[] = [
   {
-    image: "SUNDERED INFERNO.png",
+    image: "SUNDERED INFERNO.jpg",
     slug: "sundered_inferno",
   },
   {
@@ -10,7 +10,7 @@ export const galleryEntries: GalleryEntry[] = [
     slug: "shards",
   },
   {
-    image: "The Tower.png",
+    image: "The Tower.jpg",
     slug: "the_tower",
   },
   {
