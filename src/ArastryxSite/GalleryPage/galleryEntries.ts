@@ -4,6 +4,8 @@ export const galleryEntries: GalleryEntry[] = [
   {
     image: "SUNDERED INFERNO.jpg",
     slug: "sundered_inferno",
+    name: "SUNDERED INFERNO",
+    description: "This is a test description",
   },
   {
     image: "shards_ab.png",
