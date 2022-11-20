@@ -26,7 +26,7 @@ function jpgExtension(filename: string) {
 
 export const Gallery: React.FC<GalleryProps> = ({ entries, entryRoute }) => {
   return (
-    <Grid container spacing={4} alignItems="center">
+    <Grid container spacing={4} justifyContent="center" alignItems="center">
       {entries.map((e) => (
         <Grid key={e.slug}>
           <Link to={`${entryRoute}/${e.slug}`}>

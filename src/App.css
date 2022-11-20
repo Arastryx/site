@@ -1,4 +1,5 @@
 body {
   background-color: rgb(18, 17, 30);
-  color: rgb(250, 247, 240);
+  background: url("./bg.png");
+  color: rgb(255, 247, 229);
 }
