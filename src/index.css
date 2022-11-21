@@ -23,3 +23,14 @@ code {
   font-style: italic;
   src: url("./ArastryxSite/Fonts/Lora-Italic-VariableFont_wght.ttf");
 }
+
+@font-face {
+  font-family: "Timeless";
+  src: url("./ArastryxSite/Fonts/Timeless.ttf");
+}
+
+@font-face {
+  font-family: "Timeless";
+  font-weight: bold;
+  src: url("./ArastryxSite/Fonts/Timeless-Bold.ttf");
+}
