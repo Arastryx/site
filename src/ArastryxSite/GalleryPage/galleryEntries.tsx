@@ -1,4 +1,5 @@
 import { Box } from "@mui/system";
+import { Divider } from "../Common/Gallery";
 import { GalleryEntry } from "../Common/Gallery/interfaces";
 
 export const galleryEntries: GalleryEntry[] = [
@@ -9,6 +10,7 @@ export const galleryEntries: GalleryEntry[] = [
     description: (
       <Box>
         <p>This is</p>
+        <Divider />
         <p>A test</p>
       </Box>
     ),
